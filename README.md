@@ -122,15 +122,6 @@ Wilcoxon signed-rank test.
 
 ## Citation
 
-```bibtex
-@thesis{nihal2025sat2map,
-  author = {Akib Mahmud Nihal},
-  title  = {A Transformer-GAN Based Map Generation for Rural Roads of Bangladesh from Satellite Imagery},
-  school = {Khulna University of Engineering \& Technology},
-  type   = {B.Sc. thesis},
-  year   = {2025}
-}
-```
 
 Supervised by Dr. Sk. Md. Masudul Ahsan, Department of CSE, KUET.
 
