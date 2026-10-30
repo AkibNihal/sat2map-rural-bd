@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sat2map"
+version = "1.0.0"
+description = "Road map generation from satellite imagery of rural Bangladesh"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Akib Mahmud Nihal" }]
+requires-python = ">=3.10"
+dependencies = [
+    "tensorflow>=2.16",
+    "numpy",
+    "opencv-python",
+    "scipy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+collect = ["requests"]
+
+[tool.setuptools]
+packages = ["sat2map"]

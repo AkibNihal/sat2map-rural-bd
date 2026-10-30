@@ -1,0 +1,25 @@
+# data and outputs (the dataset is not redistributable)
+data/
+Dataset/
+runs/
+eval/
+*.h5
+*.keras
+
+# data_collection outputs and downloads
+data_collection/rural_dataset/
+data_collection/zoom_test/
+data_collection/fullres_check/
+data_collection/BD.txt
+data_collection/BD.zip
+data_collection/towns_bd.csv
+data_collection/bangladesh_adm0.geojson
+
+# secrets
+.env
+*api_key*
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
